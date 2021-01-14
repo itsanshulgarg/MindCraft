@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>325323739290-har7e4j2p3md8i14jb2kgqtibno6rnq9.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.325323739290-har7e4j2p3md8i14jb2kgqtibno6rnq9</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAwwovVOd81RLBj2Qa_CJLMz0RMUpima3M</string>
+	<key>GCM_SENDER_ID</key>
+	<string>325323739290</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>anshulgarg.MindCraft</string>
+	<key>PROJECT_ID</key>
+	<string>mindcraft-21d36</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mindcraft-21d36.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:325323739290:ios:016e5d62c985a3a2d24f23</string>
+	<key>DATABASE_URL</key>
+	<string>https://mindcraft-21d36.firebaseio.com</string>
+</dict>
+</plist>

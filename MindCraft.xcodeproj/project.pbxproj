@@ -3,27 +3,69 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		659AFB26A3E1DA8BA84D5B23 /* Pods_MindCraft.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD63019FFE17E4EF86F5EB87 /* Pods_MindCraft.framework */; };
 		6D059D20251FB8E10040C8D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D059D1F251FB8E10040C8D9 /* AppDelegate.swift */; };
 		6D059D22251FB8E10040C8D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D059D21251FB8E10040C8D9 /* SceneDelegate.swift */; };
-		6D059D24251FB8E10040C8D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D059D23251FB8E10040C8D9 /* ContentView.swift */; };
 		6D059D26251FB8E30040C8D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D059D25251FB8E30040C8D9 /* Assets.xcassets */; };
 		6D059D29251FB8E30040C8D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D059D28251FB8E30040C8D9 /* Preview Assets.xcassets */; };
 		6D059D2C251FB8E30040C8D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D059D2A251FB8E30040C8D9 /* LaunchScreen.storyboard */; };
+		6D059D4C251FB9D40040C8D9 /* UserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D059D4B251FB9D40040C8D9 /* UserStore.swift */; };
+		6D059D4F251FB9EB0040C8D9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D059D4E251FB9EB0040C8D9 /* LoginView.swift */; };
+		6D059D52251FBA290040C8D9 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D059D51251FBA290040C8D9 /* BlurView.swift */; };
+		6D059D55251FBBE20040C8D9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D059D54251FBBE20040C8D9 /* GoogleService-Info.plist */; };
+		6D11CB262569384500EA7B68 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D11CB252569384500EA7B68 /* HomeView.swift */; };
+		6D11CB292569A23E00EA7B68 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D11CB282569A23E00EA7B68 /* TabBar.swift */; };
+		6D11CB2C2569A38F00EA7B68 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D11CB2B2569A38F00EA7B68 /* ProfileView.swift */; };
+		6D11CB2F2569A39D00EA7B68 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D11CB2E2569A39D00EA7B68 /* FeedView.swift */; };
+		6D11CB38256D293400EA7B68 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D11CB37256D293400EA7B68 /* ChatView.swift */; };
+		6D11CB3B256D33CE00EA7B68 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D11CB3A256D33CD00EA7B68 /* HelpView.swift */; };
+		6D11CB3E256D396700EA7B68 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D11CB3D256D396700EA7B68 /* WebView.swift */; };
+		6D11CB41256D398D00EA7B68 /* HelpDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D11CB40256D398D00EA7B68 /* HelpDetailView.swift */; };
+		6D2A99E625AE3F52001976FE /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2A99E525AE3F52001976FE /* ActivityViewController.swift */; };
+		6D2A99E925AE4943001976FE /* VideoFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2A99E825AE4943001976FE /* VideoFeed.swift */; };
+		6D2A99EC25AF162F001976FE /* ExpertCareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2A99EB25AF162F001976FE /* ExpertCareView.swift */; };
+		6D2A99EF25AF1A00001976FE /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 6D2A99EE25AF1A00001976FE /* loading.json */; };
+		6D2A99F225AF1A6C001976FE /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2A99F125AF1A6C001976FE /* LottieView.swift */; };
+		6D2A99F625AF1B33001976FE /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 6D2A99F525AF1B33001976FE /* Lottie */; };
+		6D2A99F925AF1BAF001976FE /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2A99F825AF1BAF001976FE /* LoadingView.swift */; };
+		6D35548325AF46360068CFBC /* ColorTheoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D35548225AF46360068CFBC /* ColorTheoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		154F86001F8E5581362C2179 /* Pods-MindCraft.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindCraft.release.xcconfig"; path = "Target Support Files/Pods-MindCraft/Pods-MindCraft.release.xcconfig"; sourceTree = "<group>"; };
 		6D059D1C251FB8E10040C8D9 /* MindCraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindCraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D059D1F251FB8E10040C8D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D059D21251FB8E10040C8D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6D059D23251FB8E10040C8D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6D059D25251FB8E30040C8D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D059D28251FB8E30040C8D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6D059D2B251FB8E30040C8D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D059D2D251FB8E30040C8D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D059D4B251FB9D40040C8D9 /* UserStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStore.swift; sourceTree = "<group>"; };
+		6D059D4E251FB9EB0040C8D9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		6D059D51251FBA290040C8D9 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		6D059D54251FBBE20040C8D9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6D11CB252569384500EA7B68 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6D11CB282569A23E00EA7B68 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		6D11CB2B2569A38F00EA7B68 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		6D11CB2E2569A39D00EA7B68 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		6D11CB37256D293400EA7B68 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		6D11CB3A256D33CD00EA7B68 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		6D11CB3D256D396700EA7B68 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		6D11CB40256D398D00EA7B68 /* HelpDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpDetailView.swift; sourceTree = "<group>"; };
+		6D2A99E525AE3F52001976FE /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		6D2A99E825AE4943001976FE /* VideoFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoFeed.swift; sourceTree = "<group>"; };
+		6D2A99EB25AF162F001976FE /* ExpertCareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpertCareView.swift; sourceTree = "<group>"; };
+		6D2A99EE25AF1A00001976FE /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
+		6D2A99F125AF1A6C001976FE /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		6D2A99F825AF1BAF001976FE /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		6D35548225AF46360068CFBC /* ColorTheoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTheoryView.swift; sourceTree = "<group>"; };
+		6D35548625B034BD0068CFBC /* MindCraft.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MindCraft.entitlements; sourceTree = "<group>"; };
+		D108A35BBB10C31069CB2A57 /* Pods-MindCraft.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindCraft.debug.xcconfig"; path = "Target Support Files/Pods-MindCraft/Pods-MindCraft.debug.xcconfig"; sourceTree = "<group>"; };
+		FD63019FFE17E4EF86F5EB87 /* Pods_MindCraft.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MindCraft.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				659AFB26A3E1DA8BA84D5B23 /* Pods_MindCraft.framework in Frameworks */,
+				6D2A99F625AF1B33001976FE /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +86,8 @@
 			children = (
 				6D059D1E251FB8E10040C8D9 /* MindCraft */,
 				6D059D1D251FB8E10040C8D9 /* Products */,
+				A6080662EAF95A88359854BA /* Pods */,
+				D84057EBAA3F558924B1086F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,11 +102,30 @@
 		6D059D1E251FB8E10040C8D9 /* MindCraft */ = {
 			isa = PBXGroup;
 			children = (
+				6D35548625B034BD0068CFBC /* MindCraft.entitlements */,
 				6D059D1F251FB8E10040C8D9 /* AppDelegate.swift */,
 				6D059D21251FB8E10040C8D9 /* SceneDelegate.swift */,
-				6D059D23251FB8E10040C8D9 /* ContentView.swift */,
+				6D059D4E251FB9EB0040C8D9 /* LoginView.swift */,
+				6D11CB252569384500EA7B68 /* HomeView.swift */,
+				6D35548225AF46360068CFBC /* ColorTheoryView.swift */,
+				6D2A99EB25AF162F001976FE /* ExpertCareView.swift */,
+				6D11CB37256D293400EA7B68 /* ChatView.swift */,
+				6D11CB3A256D33CD00EA7B68 /* HelpView.swift */,
+				6D11CB3D256D396700EA7B68 /* WebView.swift */,
+				6D11CB40256D398D00EA7B68 /* HelpDetailView.swift */,
+				6D11CB282569A23E00EA7B68 /* TabBar.swift */,
+				6D11CB2B2569A38F00EA7B68 /* ProfileView.swift */,
+				6D11CB2E2569A39D00EA7B68 /* FeedView.swift */,
+				6D2A99E825AE4943001976FE /* VideoFeed.swift */,
+				6D2A99E525AE3F52001976FE /* ActivityViewController.swift */,
+				6D059D51251FBA290040C8D9 /* BlurView.swift */,
+				6D2A99F125AF1A6C001976FE /* LottieView.swift */,
+				6D2A99F825AF1BAF001976FE /* LoadingView.swift */,
+				6D059D4B251FB9D40040C8D9 /* UserStore.swift */,
+				6D2A99EE25AF1A00001976FE /* loading.json */,
 				6D059D25251FB8E30040C8D9 /* Assets.xcassets */,
 				6D059D2A251FB8E30040C8D9 /* LaunchScreen.storyboard */,
+				6D059D54251FBBE20040C8D9 /* GoogleService-Info.plist */,
 				6D059D2D251FB8E30040C8D9 /* Info.plist */,
 				6D059D27251FB8E30040C8D9 /* Preview Content */,
 			);
@@ -75,6 +140,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		A6080662EAF95A88359854BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D108A35BBB10C31069CB2A57 /* Pods-MindCraft.debug.xcconfig */,
+				154F86001F8E5581362C2179 /* Pods-MindCraft.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D84057EBAA3F558924B1086F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD63019FFE17E4EF86F5EB87 /* Pods_MindCraft.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,15 +164,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D059D30251FB8E30040C8D9 /* Build configuration list for PBXNativeTarget "MindCraft" */;
 			buildPhases = (
+				585B9C0CB1BFC9FE5EEA8DC7 /* [CP] Check Pods Manifest.lock */,
 				6D059D18251FB8E10040C8D9 /* Sources */,
 				6D059D19251FB8E10040C8D9 /* Frameworks */,
 				6D059D1A251FB8E10040C8D9 /* Resources */,
+				83580C3817BD0E059F57E57F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = MindCraft;
+			packageProductDependencies = (
+				6D2A99F525AF1B33001976FE /* Lottie */,
+			);
 			productName = MindCraft;
 			productReference = 6D059D1C251FB8E10040C8D9 /* MindCraft.app */;
 			productType = "com.apple.product-type.application";
@@ -118,6 +205,9 @@
 				Base,
 			);
 			mainGroup = 6D059D13251FB8E10040C8D9;
+			packageReferences = (
+				6D2A99F425AF1B33001976FE /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 6D059D1D251FB8E10040C8D9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -133,21 +223,81 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D059D2C251FB8E30040C8D9 /* LaunchScreen.storyboard in Resources */,
+				6D059D55251FBBE20040C8D9 /* GoogleService-Info.plist in Resources */,
 				6D059D29251FB8E30040C8D9 /* Preview Assets.xcassets in Resources */,
 				6D059D26251FB8E30040C8D9 /* Assets.xcassets in Resources */,
+				6D2A99EF25AF1A00001976FE /* loading.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		585B9C0CB1BFC9FE5EEA8DC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MindCraft-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83580C3817BD0E059F57E57F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MindCraft/Pods-MindCraft-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MindCraft/Pods-MindCraft-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MindCraft/Pods-MindCraft-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6D059D18251FB8E10040C8D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D11CB2F2569A39D00EA7B68 /* FeedView.swift in Sources */,
+				6D11CB3B256D33CE00EA7B68 /* HelpView.swift in Sources */,
+				6D11CB3E256D396700EA7B68 /* WebView.swift in Sources */,
 				6D059D20251FB8E10040C8D9 /* AppDelegate.swift in Sources */,
+				6D2A99EC25AF162F001976FE /* ExpertCareView.swift in Sources */,
+				6D11CB2C2569A38F00EA7B68 /* ProfileView.swift in Sources */,
+				6D2A99E925AE4943001976FE /* VideoFeed.swift in Sources */,
+				6D11CB262569384500EA7B68 /* HomeView.swift in Sources */,
+				6D11CB38256D293400EA7B68 /* ChatView.swift in Sources */,
+				6D35548325AF46360068CFBC /* ColorTheoryView.swift in Sources */,
 				6D059D22251FB8E10040C8D9 /* SceneDelegate.swift in Sources */,
-				6D059D24251FB8E10040C8D9 /* ContentView.swift in Sources */,
+				6D11CB292569A23E00EA7B68 /* TabBar.swift in Sources */,
+				6D2A99F225AF1A6C001976FE /* LottieView.swift in Sources */,
+				6D059D4C251FB9D40040C8D9 /* UserStore.swift in Sources */,
+				6D11CB41256D398D00EA7B68 /* HelpDetailView.swift in Sources */,
+				6D059D4F251FB9EB0040C8D9 /* LoginView.swift in Sources */,
+				6D2A99E625AE3F52001976FE /* ActivityViewController.swift in Sources */,
+				6D2A99F925AF1BAF001976FE /* LoadingView.swift in Sources */,
+				6D059D52251FBA290040C8D9 /* BlurView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,9 +433,11 @@
 		};
 		6D059D31251FB8E30040C8D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D108A35BBB10C31069CB2A57 /* Pods-MindCraft.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MindCraft/MindCraft.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MindCraft/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
@@ -303,9 +455,11 @@
 		};
 		6D059D32251FB8E30040C8D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 154F86001F8E5581362C2179 /* Pods-MindCraft.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MindCraft/MindCraft.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MindCraft/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
@@ -343,6 +497,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6D2A99F425AF1B33001976FE /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.9;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6D2A99F525AF1B33001976FE /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6D2A99F425AF1B33001976FE /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6D059D14251FB8E10040C8D9 /* Project object */;
 }
